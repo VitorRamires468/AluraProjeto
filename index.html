@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <section class="secao-esquerda">
+        <div class="logo">
+          <img src="assets/Frame 6.png" alt="logo alura" />
+        </div>
+        <div class="conteudo-esquerdo">
+          <div>
+            <textarea class="texto"> </textarea>
+            <span>Apenas letras minúsculas e sem acentos</span>
+            <div class="botoes">
+              <button id="botao1" onclick="criptografar()">Criptografar</button>
+              <button id="botao2" onclick="descriptografar()">
+                Descriptografar
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="secao-direita">
+        <div class="texto-traduzido">
+          <p class="resposta">adadad</p>
+          <button id="botao3" class="copiar" onclick="copiar()">Copiar</button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

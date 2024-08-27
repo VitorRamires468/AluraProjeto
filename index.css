@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #bababa;
+  font-family: Helvetica, sans-serif;
+}
+
+main {
+  margin: 1rem auto;
+  width: 70%;
+  height: 80vh;
+  background-color: #f3f5fc;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.secao-esquerda {
+  width: 40rem;
+  padding: 1rem;
+}
+
+.logo {
+  display: inline-block;
+  width: 5rem;
+  border: 3px solid green;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.conteudo-esquerdo {
+  width: 30rem;
+  height: 26rem;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.conteudo-esquerdo textarea {
+  font-family: Helvetica, sans-serif;
+  font-size: 1rem;
+  width: 100%;
+  height: 80%;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.conteudo-esquerdo span {
+  font-size: 0.8rem;
+}
+
+.botoes button {
+  border: none;
+  margin-top: 0.3rem;
+  border-radius: 1rem;
+  height: 2.3rem;
+  width: 12rem;
+}
+
+#botao1 {
+  background-color: #0a3871;
+  color: white;
+}
+
+#botao1:hover {
+  background-color: #1c3f6b;
+  transition: all ease-out;
+}
+
+#botao2,
+#botao3 {
+  background-color: #d8dfe8;
+  color: #0a3871;
+  border: 1px solid #0a3871;
+}
+
+#botao3 {
+  display: none;
+}
+
+#botao2:hover,
+#botao3:hover {
+  background-color: #d0d4d8;
+  transition: all ease-out;
+}
+
+.secao-direita {
+  width: 30rem;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.texto-traduzido {
+  border-radius: 1rem;
+  background-color: white;
+  width: 70%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.texto-traduzido p {
+  width: 80%;
+  height: 80%;
+}
+
+.texto-traduzido button {
+  border: none;
+  margin-top: 0.3rem;
+  border-radius: 1rem;
+  height: 2.1rem;
+  width: 8rem;
+}
